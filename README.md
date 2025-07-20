@@ -39,11 +39,11 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
     ├── models/
     │   ├── __init__.py
     │   ├── gesture_classifier.py            # ML classifier implementation
-    │   └── trained_gesture_classifier.pkl   # Trained model (generated)
+    │   └── trained_gesture_classifier.pkl   # Trained model 
     ├── gestures/
     │   └── gesture_definitions.json         # Gesture definitions
     └── logs/
-        └── gesture_log.txt                  # Application logs (generated)
+        └── gesture_log.txt                  # Application logs 
 
 ## 🚀 Installation
 
