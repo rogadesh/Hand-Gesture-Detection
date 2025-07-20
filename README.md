@@ -3,6 +3,7 @@
 
 A real-time hand gesture recognition system using MediaPipe and Machine Learning that accurately detects 6 different hand gestures with high confidence.
 
+---
 ## 🎯 Features
 
 - **Real-time Detection**: Live gesture recognition using webcam  
@@ -13,6 +14,8 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
 - **Gesture Smoothing**: Temporal smoothing to reduce noise and false positives  
 - **Visual Feedback**: Hand landmark visualization with gesture information overlay  
 
+---
+
 ## 🛠️ Technologies Used
 
 - **Computer Vision**: MediaPipe for hand landmark detection  
@@ -20,6 +23,8 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
 - **Image Processing**: OpenCV for camera handling and visualization  
 - **Data Processing**: NumPy, Pandas for feature extraction  
 - **Visualization**: Matplotlib, Seaborn for model analysis
+
+---
 
 ## 📁 Project Structure 
 
@@ -39,11 +44,13 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
     ├── models/
     │   ├── __init__.py
     │   ├── gesture_classifier.py            # ML classifier implementation
-    │   └── trained_gesture_classifier.pkl   # Trained model 
+    │   └── trained_gesture_classifier.pkl   # Trained model (generated)
     ├── gestures/
     │   └── gesture_definitions.json         # Gesture definitions
     └── logs/
-        └── gesture_log.txt                  # Application logs 
+        └── gesture_log.txt                  # Application logs (generated)
+
+---
 
 ## 🚀 Installation
 
@@ -68,6 +75,7 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
 
     pip install -r requirements.txt
 
+---
 
 ## 📋 Requirements
 
@@ -80,6 +88,7 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
     seaborn==0.12.2
     joblib==1.3.2
 
+---
 
 ## 🎮 Usage
 
@@ -92,12 +101,15 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
 
     python main.py
 
+---
 
 ### Controls
 
 - **Q**: Quit the application
 - Position your hand in front of the camera
 - Make clear gestures for best detection
+
+---
 
 ## 🤲 Supported Gestures
 
@@ -110,6 +122,8 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
 | **Fist**       | All fingers closed                          | ✊     |
 | **Pointing**   | Only index finger extended                  | 👉     |
 
+---
+
 ## ⚙️ Configuration
 
 ### Camera Settings (`config/settings.py`)
@@ -121,6 +135,8 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
     'fps': 30, # Frames per second
     }
 
+---
+
 ## 🧠 How It Works
 
 1. **Hand Detection**: Uses MediaPipe to detect 21 hand landmarks in real-time  
@@ -128,11 +144,15 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
 3. **Gesture Classification**: Machine Learning classifier with rule-based fallback  
 4. **Confidence Scoring**: Only displays gestures above 75% confidence  
 
+---
+
 ## 📊 Model Performance
 
 - **Training Accuracy**: ~95%
 - **Test Accuracy**: ~92%
 - **Cross-validation Score**: ~90%
+
+---
 
 ## 🐛 Troubleshooting
 
