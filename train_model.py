@@ -50,7 +50,7 @@ def train_comprehensive_model():
     plt.ylabel('True Label')
     plt.xlabel('Predicted Label')
     plt.tight_layout()
-    plt.savefig('gesture_confusion_matrix.png', dpi=300, bbox_inches='tight')
+    plt.savefig('models/gesture_confusion_matrix.png', dpi=300, bbox_inches='tight')
     plt.show()
     
     classifier.save_model('models/trained_gesture_classifier.pkl')
