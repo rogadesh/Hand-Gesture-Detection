@@ -1,0 +1,84 @@
+{
+    "thumbs_up": {
+        "description": "Thumb extended upward, other fingers closed",
+        "finger_states": {
+            "thumb": true,
+            "index": false,
+            "middle": false,
+            "ring": false,
+            "pinky": false
+        },
+        "special_conditions": ["thumb_upward"],
+        "confidence_weight": 0.95,
+        "category": "basic",
+        "priority": 1
+    },
+    "thumbs_down": {
+        "description": "Thumb pointing downward, other fingers closed",
+        "finger_states": {
+            "thumb": true,
+            "index": false,
+            "middle": false,
+            "ring": false,
+            "pinky": false
+        },
+        "special_conditions": ["thumb_downward"],
+        "confidence_weight": 0.95,
+        "category": "basic",
+        "priority": 1
+    },
+    "peace_sign": {
+        "description": "Index and middle fingers extended in V shape",
+        "finger_states": {
+            "thumb": false,
+            "index": true,
+            "middle": true,
+            "ring": false,
+            "pinky": false
+        },
+        "special_conditions": ["fingers_v_shape"],
+        "confidence_weight": 0.95,
+        "category": "basic",
+        "priority": 1
+    },
+    "open_palm": {
+        "description": "All fingers extended showing open palm",
+        "finger_states": {
+            "thumb": true,
+            "index": true,
+            "middle": true,
+            "ring": true,
+            "pinky": true
+        },
+        "special_conditions": ["palm_facing_camera", "fingers_natural_spread"],
+        "confidence_weight": 0.95,
+        "category": "basic",
+        "priority": 1
+    },
+    "fist": {
+        "description": "All fingers closed",
+        "finger_states": {
+            "thumb": false,
+            "index": false,
+            "middle": false,
+            "ring": false,
+            "pinky": false
+        },
+        "confidence_weight": 1.0,
+        "category": "basic",
+        "priority": 1
+    },
+    "pointing": {
+        "description": "Only index finger extended",
+        "finger_states": {
+            "thumb": false,
+            "index": true,
+            "middle": false,
+            "ring": false,
+            "pinky": false
+        },
+        "confidence_weight": 1.0,
+        "category": "basic",
+        "priority": 1
+    }
+}
