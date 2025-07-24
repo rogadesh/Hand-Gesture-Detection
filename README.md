@@ -1,5 +1,5 @@
 
-# Project Title
+# Hand Gesture Detection
 
 A real-time hand gesture recognition system using MediaPipe and Machine Learning that accurately detects 6 different hand gestures with high confidence.
 
@@ -168,6 +168,6 @@ A real-time hand gesture recognition system using MediaPipe and Machine Learning
 - Keep hand clearly visible in frame
 - Make distinct, clear gestures
 
-
+---
 
 
